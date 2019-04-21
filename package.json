@@ -1,0 +1,11 @@
+{
+  "name": "infohub",
+  "version": "0.0.1",
+  "description": "A simple utility to show the time, weather, and whatever else on a dashboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Hurley",
+  "license": "ISC"
+}
