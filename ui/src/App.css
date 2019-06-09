@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1525697865770-2e858b5de2ce?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjY3OTMwfQ");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.TopContainer {
+  height: 20%
+}
+
+.Clock {
+  margin-left: 16px;
+  text-align: left;
+  color: white;
+}
+
+.Clock-time {
+  font-size: 5em;
+}
+
+.Clock-period {
+  font-size: 2em
+}
+
+.Date {
+  margin-left: 16px;
+  text-align: left;
+  color: white;
+}
+
+.Date-day {
+  font-size: 2em
+}
+
+.Date-date {
+  font-size: 1.5em
+}
+
+.MiddleContainer {
+  height: 55%
+}
+
+.BottomContainer {
+  background-color: rgba(0, 0, 0, 0.5); 
+  height: 25%
+}
+
+.Weather {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 10px;
+  text-align: left;
+  color: white;
+}
+
+.Weather-current {
+  background-color: rgba(255, 0, 0, 0.5); 
+}
+
+.Weather-current-wind {
+  font-size: 2em;
+}
+
+.Weather-current-sunrise {
+  font-size: 2em;
+}
+
+.Weather-current-temp {
+  font-size: 5em;
+}
+
+.Weather-forecast {
+  background-color: rgba(0, 0, 255, 0.5);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 10px;
+  text-align: left;
+  color: white;
+}
