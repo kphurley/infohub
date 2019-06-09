@@ -17,7 +17,7 @@ const ACCESS_KEYS = {
 }
 
 app.use(bodyParser.json());
-app.use(logger('dev'))
+app.use(logger('dev'));
 
 app.get('/update', (req, res, next) => {
   Promise.all([
