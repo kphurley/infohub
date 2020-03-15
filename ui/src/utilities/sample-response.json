@@ -1,0 +1,84 @@
+{
+  "weather": {
+    "current": {
+      "icon": "snow",
+      "summary": "Light Snow",
+      "temperature": 34.97
+    },
+    "daily": [
+      {
+        "icon": "cloudy",
+        "precipProbability": 0.27,
+        "precipType": "rain",
+        "summary": "Overcast throughout the day.",
+        "temperatureHigh": 38.79,
+        "temperatureLow": 31.27
+      },
+      {
+        "icon": "partly-cloudy-day",
+        "precipProbability": 0.11,
+        "precipType": "snow",
+        "summary": "Partly cloudy throughout the day.",
+        "temperatureHigh": 39.86,
+        "temperatureLow": 30.29
+      },
+      {
+        "icon": "cloudy",
+        "precipProbability": 0.24,
+        "precipType": "snow",
+        "summary": "Overcast throughout the day.",
+        "temperatureHigh": 44.97,
+        "temperatureLow": 38.4
+      },
+      {
+        "icon": "partly-cloudy-day",
+        "precipProbability": 0.3,
+        "precipType": "rain",
+        "summary": "Partly cloudy throughout the day.",
+        "temperatureHigh": 47.61,
+        "temperatureLow": 32.95
+      },
+      {
+        "icon": "rain",
+        "precipProbability": 0.38,
+        "precipType": "rain",
+        "summary": "Overcast throughout the day.",
+        "temperatureHigh": 42.45,
+        "temperatureLow": 35.25
+      },
+      {
+        "icon": "rain",
+        "precipProbability": 0.93,
+        "precipType": "rain",
+        "summary": "Light rain starting in the afternoon.",
+        "temperatureHigh": 47.77,
+        "temperatureLow": 46.63
+      },
+      {
+        "icon": "rain",
+        "precipProbability": 0.77,
+        "precipType": "rain",
+        "summary": "Dangerously windy in the morning and afternoon.",
+        "temperatureHigh": 51.63,
+        "temperatureLow": 20.45
+      },
+      {
+        "icon": "clear-day",
+        "precipProbability": 0.09,
+        "precipType": "snow",
+        "summary": "Clear throughout the day.",
+        "temperatureHigh": 32.09,
+        "temperatureLow": 23.86
+      }
+    ]
+  },
+  "imageUrls": {
+    "urls": {
+      "raw": "https://images.unsplash.com/photo-1568984014348-a2b10ec23873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjY3OTMwfQ",
+      "full": "https://images.unsplash.com/photo-1568984014348-a2b10ec23873?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjY3OTMwfQ",
+      "regular": "https://images.unsplash.com/photo-1568984014348-a2b10ec23873?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjY3OTMwfQ",
+      "small": "https://images.unsplash.com/photo-1568984014348-a2b10ec23873?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjY3OTMwfQ",
+      "thumb": "https://images.unsplash.com/photo-1568984014348-a2b10ec23873?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&ixid=eyJhcHBfaWQiOjY3OTMwfQ"
+    }
+  }
+}

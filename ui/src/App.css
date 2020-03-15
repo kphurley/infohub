@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-image: url("https://images.unsplash.com/photo-1525697865770-2e858b5de2ce?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjY3OTMwfQ");
+  text-shadow: 2px 2px #000000;
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
@@ -42,8 +42,7 @@
   height: 55%
 }
 
-.BottomContainer {
-  background-color: rgba(0, 0, 0, 0.5); 
+.BottomContainer { 
   height: 25%
 }
 
@@ -56,7 +55,7 @@
 }
 
 .Weather-current {
-  background-color: rgba(255, 0, 0, 0.5); 
+ 
 }
 
 .Weather-current-wind {

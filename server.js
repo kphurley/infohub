@@ -7,6 +7,7 @@ const port = 4000;
 const axios = require('axios');
 const bodyParser = require('body-parser');
 const logger = require('morgan');
+const cors = require('cors');
 
 const WeatherFormatter = require('./formatters/WeatherFormatter');
 const UnsplashFormatter = require('./formatters/UnsplashFormatter');
@@ -16,9 +17,11 @@ const ACCESS_KEYS = {
   unsplash: process.env.UNSPLASH_ACCESS_KEY
 }
 
+app.use(cors());
 app.use(bodyParser.json());
 app.use(logger('dev'));
 
+// TODO - replace hardcoded lat/long with query params
 app.get('/update', (req, res, next) => {
   Promise.all([
     axios.get(`https://api.darksky.net/forecast/${ACCESS_KEYS.darksky}/42.0723,-87.7228`),
