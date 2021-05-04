@@ -7,6 +7,7 @@ const port = 4000;
 const axios = require('axios');
 const bodyParser = require('body-parser');
 const logger = require('morgan');
+const cors = require('cors');
 
 const WeatherFormatter = require('./formatters/WeatherFormatter');
 const UnsplashFormatter = require('./formatters/UnsplashFormatter');
@@ -18,6 +19,7 @@ const ACCESS_KEYS = {
 
 app.use(bodyParser.json());
 app.use(logger('dev'));
+app.use(cors());
 
 app.get('/update', (req, res, next) => {
   Promise.all([
@@ -25,7 +27,7 @@ app.get('/update', (req, res, next) => {
     axios.get('https://api.unsplash.com/photos/random', {
       params: {
         client_id: ACCESS_KEYS.unsplash,
-        orientation: 'portrait'
+        orientation: 'landscape'
       }
     })
   ]).then((responses) => {
